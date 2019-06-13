@@ -1,0 +1,184 @@
+body{background-image:url(fon.jpg); }
+h3{font-size: 16pt;
+color: orange;
+text-align: center;}
+h4{color:gray;
+font-size: 16;
+text-align: center;}
+.main{
+	width:75%;
+	margin: 0 auto;
+	border-radius: 8px 8px 0 0px;
+	background: darkgray;
+	border: 2px solid gray;
+}
+
+.nav1{
+	height: 40px;
+	border-radius: 8px 8px 0 0px;
+}
+ul.nav{
+	margin-top: 0px;
+                margin-left: 0px;
+                padding-left: 0px;
+                list-style: none;
+                padding-top: 3px;
+            }
+            .nav li { 
+                display: inline; 
+            }
+            ul.nav a {
+                display: inline-block;
+                width: 5em;
+                padding:10px;
+                background-color: #f4f4f4;
+                border: 1px  #333;
+                text-decoration: none;
+                color: #333;
+                text-align: center;
+            }
+            ul.nav a:hover{
+                background-color: #333;
+                color: #f4f4f4;
+            }
+ .a{
+ 	height: 45px;
+}
+.image1 {
+	position: relative;
+	width: 100%; 
+	display: flex;
+  align-items: center;
+  justify-content: center;/* for IE 6 */
+}
+
+h2 {
+	top:370px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+.main1{
+	background: white;
+	margin: 0 auto;
+	padding:20px;
+
+}
+.bbb{background: silver;
+margin: 0 auto;
+width: 300px;
+border: 1px solid green;
+padding-left: 5px;}
+
+    a.rollover0{
+  background: url(images/noActive0.png) no-repeat;
+ display: block;
+ width: 50px;
+ height: 50px;
+}
+a.rollover0:hover {
+  background: url(images/Active0.png)no-repeat;
+  width: 50px;
+ height: 50px;
+}
+
+a.rollover{
+  background: url(images/noActive1.png) no-repeat;
+ display: block;
+ width: 50px;
+ height: 50px;
+}
+a.rollover:hover {
+  background: url(images/Active1.png)no-repeat;
+  width: 50px;
+ height: 50px;
+}
+
+
+a.rollover1{
+  background: url(images/noActive2.png) no-repeat;
+ display: block;
+ width: 50px;
+ height: 50px;
+}
+a.rollover1:hover {
+  background: url(images/Active2.png)no-repeat;
+  width: 50px;
+ height: 50px;
+}
+a.rollover2{
+  background: url(images/noActive3.png) no-repeat;
+ display: block;
+ width: 50px;
+ height: 50px;
+}
+a.rollover2:hover {
+  background: url(images/Active3.png)no-repeat;
+  width: 50px;
+ height: 50px;
+}
+a.rollover3{
+  background: url(images/noActive4.png) no-repeat;
+ display: block;
+ width: 50px;
+ height: 50px;
+}
+a.rollover3:hover {
+  background: url(images/Active4.png)no-repeat;
+  width: 50px;
+ height: 50px;
+}
+a.rollover4{
+  background: url(images/noActive5.png) no-repeat;
+ display: block;
+ width: 50px;
+ height: 50px;
+}
+a.rollover4:hover {
+  background: url(images/Active5.png)no-repeat;
+  width: 50px;
+ height: 50px;
+}
+.new_menu li{display: inline-block;
+padding: 10px;
+width: 50px;
+height: 30px;
+}
+footer{
+	width:100%;
+	background-color:orange;
+	height: 90px;
+	margin-top:0;
+	margin-bottom:0;
+	
+}
+.image {
+ overflow:hidden;
+ width: 380px;
+ height:250px;
+ display: inline-block;
+ }
+ .image img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ 
+.image img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+
+@media (max-width: 760px)
+{
+.main{width: 100%;}
+h2{
+	display: none;
+}
+iframe{
+  width: 315px;
+  height: 170px;
+}
+}
